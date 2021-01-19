@@ -12,7 +12,7 @@ defmodule Example do
   end
 end
 
+# Example.func("a")  # No funciona tiene menos parametro que lo requerido
 Example.func("a", "b")             # => ["a",2,3,"b"]
 Example.func("a", "b", "c")        # => ["a","b",3,"c"]
 Example.func("a", "b", "c", "d")   # => ["a","b","c","d"]
-
